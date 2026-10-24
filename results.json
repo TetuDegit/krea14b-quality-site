@@ -1,0 +1,1133 @@
+{
+  "title": "Krea 14B · G0–G6 质量评测",
+  "completed_date": "2026-10-24",
+  "methods": [
+    "G0",
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6"
+  ],
+  "sample_ids": [
+    "vbench_01",
+    "vbench_03",
+    "vbench_05",
+    "vbench_07",
+    "vbench_09"
+  ],
+  "media": {
+    "width": 1664,
+    "height": 960,
+    "frames": 320,
+    "fps": 16,
+    "seconds": 20
+  },
+  "protocol": {
+    "version": "krea-quality-v1",
+    "seed": 20261023,
+    "expected_media": {
+      "width": 1664,
+      "height": 960,
+      "frames": 320,
+      "fps": 16,
+      "seconds": 20
+    },
+    "fast_vqa": {
+      "variant": "FAST-VQA",
+      "sampling_config": "options/fast/fast-b.yml",
+      "validation_split": "val-kv1k",
+      "sigmoid_mean": -0.110198185,
+      "sigmoid_std": 0.04178565
+    },
+    "patch_fgresq": {
+      "frames": 20,
+      "patch_size": 256,
+      "stride": 256,
+      "input_size": 224,
+      "resize_size": 256,
+      "aggregation": "mean_patches_then_mean_frames",
+      "weights_version": "FGResQ_v2"
+    },
+    "video_reward": {
+      "use_norm": true,
+      "num_frames": 16,
+      "max_pixels": 802816,
+      "dimensions": [
+        "VQ",
+        "MQ",
+        "TA",
+        "Overall"
+      ]
+    }
+  },
+  "summary": {
+    "fast_vqa": {
+      "G0": {
+        "score": {
+          "mean": 0.8763662705708325,
+          "sample_std": 0.04849178965054316,
+          "n": 5
+        }
+      },
+      "G1": {
+        "score": {
+          "mean": 0.8778523392091904,
+          "sample_std": 0.04359647287600584,
+          "n": 5
+        }
+      },
+      "G2": {
+        "score": {
+          "mean": 0.856451047766004,
+          "sample_std": 0.056610918446438306,
+          "n": 5
+        }
+      },
+      "G3": {
+        "score": {
+          "mean": 0.8736066435994904,
+          "sample_std": 0.05101540437021851,
+          "n": 5
+        }
+      },
+      "G4": {
+        "score": {
+          "mean": 0.8849742998360477,
+          "sample_std": 0.03665713230535032,
+          "n": 5
+        }
+      },
+      "G5": {
+        "score": {
+          "mean": 0.879003009884446,
+          "sample_std": 0.03718683296928035,
+          "n": 5
+        }
+      },
+      "G6": {
+        "score": {
+          "mean": 0.9038990611991344,
+          "sample_std": 0.025868920087418323,
+          "n": 5
+        }
+      }
+    },
+    "patch_fgresq": {
+      "G0": {
+        "score": {
+          "mean": 0.4274247977456876,
+          "sample_std": 0.00951980295679615,
+          "n": 5
+        }
+      },
+      "G1": {
+        "score": {
+          "mean": 0.42579528306211745,
+          "sample_std": 0.015390912246201129,
+          "n": 5
+        }
+      },
+      "G2": {
+        "score": {
+          "mean": 0.4280351083512817,
+          "sample_std": 0.010150033659082909,
+          "n": 5
+        }
+      },
+      "G3": {
+        "score": {
+          "mean": 0.4274630835333041,
+          "sample_std": 0.012972811363034647,
+          "n": 5
+        }
+      },
+      "G4": {
+        "score": {
+          "mean": 0.4636089760810137,
+          "sample_std": 0.017151919847579706,
+          "n": 5
+        }
+      },
+      "G5": {
+        "score": {
+          "mean": 0.46991034371512275,
+          "sample_std": 0.008250831780637449,
+          "n": 5
+        }
+      },
+      "G6": {
+        "score": {
+          "mean": 0.4397770731151104,
+          "sample_std": 0.0192185824606941,
+          "n": 5
+        }
+      }
+    },
+    "video_reward": {
+      "G0": {
+        "VQ": {
+          "mean": 0.9673874354867414,
+          "sample_std": 0.5924518296673843,
+          "n": 5
+        },
+        "MQ": {
+          "mean": 0.9448492143943232,
+          "sample_std": 0.9363508336271401,
+          "n": 5
+        },
+        "TA": {
+          "mean": 0.3043270570439074,
+          "sample_std": 0.4303745357416574,
+          "n": 5
+        },
+        "Overall": {
+          "mean": 2.216563706924972,
+          "sample_std": 1.6761365499846315,
+          "n": 5
+        }
+      },
+      "G1": {
+        "VQ": {
+          "mean": 0.8714517707777185,
+          "sample_std": 0.6349373706102728,
+          "n": 5
+        },
+        "MQ": {
+          "mean": 0.7429042067916877,
+          "sample_std": 0.9465981130186417,
+          "n": 5
+        },
+        "TA": {
+          "mean": 0.10931388952470036,
+          "sample_std": 0.8015443401882826,
+          "n": 5
+        },
+        "Overall": {
+          "mean": 1.7236698670941066,
+          "sample_std": 2.023050660249984,
+          "n": 5
+        }
+      },
+      "G2": {
+        "VQ": {
+          "mean": 1.000756362342054,
+          "sample_std": 0.6530753333197039,
+          "n": 5
+        },
+        "MQ": {
+          "mean": 0.8616953877344146,
+          "sample_std": 0.9731174766333118,
+          "n": 5
+        },
+        "TA": {
+          "mean": 0.39513753433382415,
+          "sample_std": 0.47767017238591,
+          "n": 5
+        },
+        "Overall": {
+          "mean": 2.2575892844102925,
+          "sample_std": 1.792652102655996,
+          "n": 5
+        }
+      },
+      "G3": {
+        "VQ": {
+          "mean": 1.1133764904787329,
+          "sample_std": 0.7615634657794279,
+          "n": 5
+        },
+        "MQ": {
+          "mean": 0.9618193831004271,
+          "sample_std": 1.0139003205492536,
+          "n": 5
+        },
+        "TA": {
+          "mean": 0.3596841288165279,
+          "sample_std": 0.5409950724604552,
+          "n": 5
+        },
+        "Overall": {
+          "mean": 2.434880002395688,
+          "sample_std": 2.04107874218654,
+          "n": 5
+        }
+      },
+      "G4": {
+        "VQ": {
+          "mean": 0.95209334401139,
+          "sample_std": 0.5397974738773154,
+          "n": 5
+        },
+        "MQ": {
+          "mean": 0.8583013539931937,
+          "sample_std": 0.8165827781014048,
+          "n": 5
+        },
+        "TA": {
+          "mean": 0.22595637116356823,
+          "sample_std": 0.5244371741693372,
+          "n": 5
+        },
+        "Overall": {
+          "mean": 2.036351069168152,
+          "sample_std": 1.6985783443656253,
+          "n": 5
+        }
+      },
+      "G5": {
+        "VQ": {
+          "mean": 0.7157301121195944,
+          "sample_std": 0.6708166449221219,
+          "n": 5
+        },
+        "MQ": {
+          "mean": 0.259820070957932,
+          "sample_std": 0.6379193535808021,
+          "n": 5
+        },
+        "TA": {
+          "mean": 0.35781816010509127,
+          "sample_std": 0.29225568441469685,
+          "n": 5
+        },
+        "Overall": {
+          "mean": 1.3333683431826175,
+          "sample_std": 1.4430682374881418,
+          "n": 5
+        }
+      },
+      "G6": {
+        "VQ": {
+          "mean": 1.0508097526250224,
+          "sample_std": 0.49151172589722464,
+          "n": 5
+        },
+        "MQ": {
+          "mean": 0.8435938744479038,
+          "sample_std": 0.6267536656845204,
+          "n": 5
+        },
+        "TA": {
+          "mean": 0.36714800366227446,
+          "sample_std": 0.5114252272936756,
+          "n": 5
+        },
+        "Overall": {
+          "mean": 2.261551630735201,
+          "sample_std": 1.5379197359609045,
+          "n": 5
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "method": "G0",
+      "sample_id": "vbench_01",
+      "prompt": "a person playing golf",
+      "seed": 610001,
+      "sha256": "eb65449c9b71585ac93516849ce916b46cf453e74e912b6140db8ac69c9532c1",
+      "bytes": 19311826,
+      "asset": "G0_vbench_01_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9144150860760393
+        },
+        "patch_fgresq": {
+          "score": 0.43870152394686424
+        },
+        "video_reward": {
+          "VQ": 1.5068517529809575,
+          "MQ": 1.3515675910506117,
+          "TA": 0.2931312447752875,
+          "Overall": 3.1515505888068565
+        }
+      }
+    },
+    {
+      "method": "G0",
+      "sample_id": "vbench_03",
+      "prompt": "person doing a leg exercise",
+      "seed": 610003,
+      "sha256": "18abbaa386252e0aa3a4c9ff163709b3086473b27eacb23d5ef8edb1b5b4ac38",
+      "bytes": 17728574,
+      "asset": "G0_vbench_03_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8964028573378676
+        },
+        "patch_fgresq": {
+          "score": 0.4158702882805041
+        },
+        "video_reward": {
+          "VQ": 0.4362653497063535,
+          "MQ": 0.39558142060676266,
+          "TA": 0.8467019625014927,
+          "Overall": 1.6785487328146087
+        }
+      }
+    },
+    {
+      "method": "G0",
+      "sample_id": "vbench_05",
+      "prompt": "a young athlete training in swimming",
+      "seed": 610005,
+      "sha256": "bd4ad2a8202bc715780d42ef67221c419d241b03c90de469ee8ded925562f093",
+      "bytes": 27669672,
+      "asset": "G0_vbench_05_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8430972737517954
+        },
+        "patch_fgresq": {
+          "score": 0.4356614764779806
+        },
+        "video_reward": {
+          "VQ": 1.2426810820430683,
+          "MQ": 1.7701650858011728,
+          "TA": 0.5481469686716292,
+          "Overall": 3.5609931365158705
+        }
+      }
+    },
+    {
+      "method": "G0",
+      "sample_id": "vbench_07",
+      "prompt": "people carving a pumpkin",
+      "seed": 610007,
+      "sha256": "fbbc85d4530e273377c09da1b909f8b4bc17770a56ee1bab08a99023e396faba",
+      "bytes": 19510756,
+      "asset": "G0_vbench_07_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9193741500960181
+        },
+        "patch_fgresq": {
+          "score": 0.42236820901078836
+        },
+        "video_reward": {
+          "VQ": 1.4234294358426767,
+          "MQ": 1.6344037361523422,
+          "TA": 0.12519406074598932,
+          "Overall": 3.183027232741008
+        }
+      }
+    },
+    {
+      "method": "G0",
+      "sample_id": "vbench_09",
+      "prompt": "couple dancing with body paint",
+      "seed": 610009,
+      "sha256": "8424a8f082434d904fdd78f3541bbbe5b7ee6e1bd238f47c22c5167db320f299",
+      "bytes": 19188612,
+      "asset": "G0_vbench_09_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.808541985592442
+        },
+        "patch_fgresq": {
+          "score": 0.4245224910123008
+        },
+        "video_reward": {
+          "VQ": 0.2277095568606514,
+          "MQ": -0.4274717616392731,
+          "TA": -0.29153895147486175,
+          "Overall": -0.4913011562534835
+        }
+      }
+    },
+    {
+      "method": "G1",
+      "sample_id": "vbench_01",
+      "prompt": "a person playing golf",
+      "seed": 610001,
+      "sha256": "2c63894f99cef7b35aecb5b5870a99a682a4d8023a59da9e93fed0380b95d595",
+      "bytes": 39005738,
+      "asset": "G1_vbench_01_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8895466735450862
+        },
+        "patch_fgresq": {
+          "score": 0.4452254698744842
+        },
+        "video_reward": {
+          "VQ": 1.2704885210891619,
+          "MQ": 1.0008507711244659,
+          "TA": 0.24959197484176573,
+          "Overall": 2.5209312670553934
+        }
+      }
+    },
+    {
+      "method": "G1",
+      "sample_id": "vbench_03",
+      "prompt": "person doing a leg exercise",
+      "seed": 610003,
+      "sha256": "9d725039c5825916910c062632c465c1b2f89a9a19054362a4759f82b4ff1407",
+      "bytes": 39661898,
+      "asset": "G1_vbench_03_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.887432664335157
+        },
+        "patch_fgresq": {
+          "score": 0.429828465623515
+        },
+        "video_reward": {
+          "VQ": 0.2833244349528386,
+          "MQ": 0.22022301064368976,
+          "TA": 1.045738625054735,
+          "Overall": 1.5492860706512632
+        }
+      }
+    },
+    {
+      "method": "G1",
+      "sample_id": "vbench_05",
+      "prompt": "a young athlete training in swimming",
+      "seed": 610005,
+      "sha256": "06e0a09bdb8918709c2597c04cfd733df081a5d11033c9a2fa63ccfd550d75fd",
+      "bytes": 51642970,
+      "asset": "G1_vbench_05_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9244755310544834
+        },
+        "patch_fgresq": {
+          "score": 0.43109223427517074
+        },
+        "video_reward": {
+          "VQ": 1.40952571631963,
+          "MQ": 1.8380457606255882,
+          "TA": 0.48594801162374096,
+          "Overall": 3.7335194885689593
+        }
+      }
+    },
+    {
+      "method": "G1",
+      "sample_id": "vbench_07",
+      "prompt": "people carving a pumpkin",
+      "seed": 610007,
+      "sha256": "d40a144ebc56a8ca01082ff034869de04a5eb224c3ff2fda697544d844a93765",
+      "bytes": 49799699,
+      "asset": "G1_vbench_07_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8819513345233017
+        },
+        "patch_fgresq": {
+          "score": 0.4039289259484836
+        },
+        "video_reward": {
+          "VQ": 1.3121996796583022,
+          "MQ": 1.2497465788139888,
+          "TA": -0.12982166315035237,
+          "Overall": 2.4321245953219384
+        }
+      }
+    },
+    {
+      "method": "G1",
+      "sample_id": "vbench_09",
+      "prompt": "couple dancing with body paint",
+      "seed": 610009,
+      "sha256": "e102b214ea30f9709167d4b4646fae11deab42a591c3891dfd4bb422f1367ae2",
+      "bytes": 37498953,
+      "asset": "G1_vbench_09_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8058554925879237
+        },
+        "patch_fgresq": {
+          "score": 0.4189013195889337
+        },
+        "video_reward": {
+          "VQ": 0.08172050186865992,
+          "MQ": -0.5943450872492941,
+          "TA": -1.1048875007463874,
+          "Overall": -1.6175120861270216
+        }
+      }
+    },
+    {
+      "method": "G2",
+      "sample_id": "vbench_01",
+      "prompt": "a person playing golf",
+      "seed": 610001,
+      "sha256": "aa5c6512ef7a1c1c54f3358f232860720284b696feebac1f8cb6709f328f4b2a",
+      "bytes": 15479205,
+      "asset": "G2_vbench_01_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.897945145732586
+        },
+        "patch_fgresq": {
+          "score": 0.4310579138142722
+        },
+        "video_reward": {
+          "VQ": 1.5763703505961917,
+          "MQ": 1.2044927955977118,
+          "TA": 0.42374905457585277,
+          "Overall": 3.204612200769756
+        }
+      }
+    },
+    {
+      "method": "G2",
+      "sample_id": "vbench_03",
+      "prompt": "person doing a leg exercise",
+      "seed": 610003,
+      "sha256": "0e4d840f0a0d5584e857c5a9dd98e3de9b0cbe76e29c9a7835fea05da00107f0",
+      "bytes": 13360852,
+      "asset": "G2_vbench_03_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8801925149215536
+        },
+        "patch_fgresq": {
+          "score": 0.41594431017126354
+        },
+        "video_reward": {
+          "VQ": 0.4640727887524471,
+          "MQ": 0.38992469770472804,
+          "TA": 1.008419250826002,
+          "Overall": 1.862416737283177
+        }
+      }
+    },
+    {
+      "method": "G2",
+      "sample_id": "vbench_05",
+      "prompt": "a young athlete training in swimming",
+      "seed": 610005,
+      "sha256": "d86792683bee5af6560035f1d3420bf293c503e1fb78cb37c8040b123098a340",
+      "bytes": 25234848,
+      "asset": "G2_vbench_05_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8251443634103114
+        },
+        "patch_fgresq": {
+          "score": 0.44221049041620325
+        },
+        "video_reward": {
+          "VQ": 1.3121996796583022,
+          "MQ": 1.9172398812540727,
+          "TA": 0.6476652999482503,
+          "Overall": 3.877104860860625
+        }
+      }
+    },
+    {
+      "method": "G2",
+      "sample_id": "vbench_07",
+      "prompt": "people carving a pumpkin",
+      "seed": 610007,
+      "sha256": "c99246b2f40bbbe4d25925ecf79a01373d0eefddbb40cf13ad3980affe91ce92",
+      "bytes": 13991696,
+      "asset": "G2_vbench_07_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9064868833533365
+        },
+        "patch_fgresq": {
+          "score": 0.4208562753030232
+        },
+        "video_reward": {
+          "VQ": 1.5068517529809575,
+          "MQ": 1.3741944826587502,
+          "TA": 0.13763385215556695,
+          "Overall": 3.018680087795275
+        }
+      }
+    },
+    {
+      "method": "G2",
+      "sample_id": "vbench_09",
+      "prompt": "couple dancing with body paint",
+      "seed": 610009,
+      "sha256": "f7c5fd3c9d73990f0c1a69381059b8650d6faf68c7210a87512efc5a33ce238d",
+      "bytes": 16125778,
+      "asset": "G2_vbench_09_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.7724863314122327
+        },
+        "patch_fgresq": {
+          "score": 0.4301065520516464
+        },
+        "video_reward": {
+          "VQ": 0.14428723972237056,
+          "MQ": -0.5773749185431902,
+          "TA": -0.24177978583655116,
+          "Overall": -0.6748674646573708
+        }
+      }
+    },
+    {
+      "method": "G3",
+      "sample_id": "vbench_01",
+      "prompt": "a person playing golf",
+      "seed": 610001,
+      "sha256": "d466bea29daa32e8b2e63891203e1df4cffa5e51856410378dd7eabbce108b0f",
+      "bytes": 17521556,
+      "asset": "G3_vbench_01_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9135638913854347
+        },
+        "patch_fgresq": {
+          "score": 0.43118516627166953
+        },
+        "video_reward": {
+          "VQ": 1.5902740701192384,
+          "MQ": 1.3855079284628193,
+          "TA": 0.4361888459854304,
+          "Overall": 3.411970844567488
+        }
+      }
+    },
+    {
+      "method": "G3",
+      "sample_id": "vbench_03",
+      "prompt": "person doing a leg exercise",
+      "seed": 610003,
+      "sha256": "58291f60477188dd5df215e2a8f93073967729cd86b97ba6af09c2c586f6c7ba",
+      "bytes": 16330524,
+      "asset": "G3_vbench_03_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8953270227299535
+        },
+        "patch_fgresq": {
+          "score": 0.4105981893837452
+        },
+        "video_reward": {
+          "VQ": 0.5613988254137747,
+          "MQ": 0.2824469625660705,
+          "TA": 0.9835396680068467,
+          "Overall": 1.827385455986692
+        }
+      }
+    },
+    {
+      "method": "G3",
+      "sample_id": "vbench_05",
+      "prompt": "a young athlete training in swimming",
+      "seed": 610005,
+      "sha256": "99aa2cc838037d5cd4a2547269538bc229d1f373be1b8c8d7afefb62002082f7",
+      "bytes": 28207254,
+      "asset": "G3_vbench_05_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8416628277434649
+        },
+        "patch_fgresq": {
+          "score": 0.4463844094957624
+        },
+        "video_reward": {
+          "VQ": 1.5763703505961917,
+          "MQ": 1.9738071102744188,
+          "TA": 0.6352255085386727,
+          "Overall": 4.185402969409283
+        }
+      }
+    },
+    {
+      "method": "G3",
+      "sample_id": "vbench_07",
+      "prompt": "people carving a pumpkin",
+      "seed": 610007,
+      "sha256": "b9d3ff0c6752b6a47f65822499eb8bf7db7347f164a093b58754ee740a264b3f",
+      "bytes": 17361797,
+      "asset": "G3_vbench_07_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9173890018349184
+        },
+        "patch_fgresq": {
+          "score": 0.4242700231394598
+        },
+        "video_reward": {
+          "VQ": 1.7849261434418937,
+          "MQ": 1.6230902903482731,
+          "TA": 0.20605270490824398,
+          "Overall": 3.6140691386984107
+        }
+      }
+    },
+    {
+      "method": "G3",
+      "sample_id": "vbench_09",
+      "prompt": "couple dancing with body paint",
+      "seed": 610009,
+      "sha256": "b39a6b9bfc85e5151c51c5d1e6d88e284c29e1fd052eec454f165fbb8c90051c",
+      "bytes": 18100080,
+      "asset": "G3_vbench_09_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8000904743036803
+        },
+        "patch_fgresq": {
+          "score": 0.4248776293758835
+        },
+        "video_reward": {
+          "VQ": 0.05391306282256631,
+          "MQ": -0.45575537614944617,
+          "TA": -0.4625860833565543,
+          "Overall": -0.8644283966834342
+        }
+      }
+    },
+    {
+      "method": "G4",
+      "sample_id": "vbench_01",
+      "prompt": "a person playing golf",
+      "seed": 610001,
+      "sha256": "cc5822eccecc6a3a2e51568d549c14d64731795031a5ca1c28b60e4fc426ac45",
+      "bytes": 53057772,
+      "asset": "G4_vbench_01_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8556828957585866
+        },
+        "patch_fgresq": {
+          "score": 0.43977472271238055
+        },
+        "video_reward": {
+          "VQ": 1.0758364477665066,
+          "MQ": 1.7475381941930346,
+          "TA": 0.12519406074598932,
+          "Overall": 2.94856870270553
+        }
+      }
+    },
+    {
+      "method": "G4",
+      "sample_id": "vbench_03",
+      "prompt": "person doing a leg exercise",
+      "seed": 610003,
+      "sha256": "a36bf459f223550d1c481788e8815e0aed9813cfa6432a5e27f522c60d264b33",
+      "bytes": 27297194,
+      "asset": "G4_vbench_03_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9107787024832132
+        },
+        "patch_fgresq": {
+          "score": 0.47835413930671555
+        },
+        "video_reward": {
+          "VQ": 0.7977620573055705,
+          "MQ": 0.361641083194555,
+          "TA": 0.6352255085386727,
+          "Overall": 1.7946286490387982
+        }
+      }
+    },
+    {
+      "method": "G4",
+      "sample_id": "vbench_05",
+      "prompt": "a young athlete training in swimming",
+      "seed": 610005,
+      "sha256": "3b94767e909a6061d21361511ef7b5878c47c740e0f74a4a019692f0497b1585",
+      "bytes": 32831118,
+      "asset": "G4_vbench_05_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8731331216832806
+        },
+        "patch_fgresq": {
+          "score": 0.4641996768436262
+        },
+        "video_reward": {
+          "VQ": 1.1453550453817407,
+          "MQ": 0.9442835421041198,
+          "TA": 0.4672883245093745,
+          "Overall": 2.556926911995235
+        }
+      }
+    },
+    {
+      "method": "G4",
+      "sample_id": "vbench_07",
+      "prompt": "people carving a pumpkin",
+      "seed": 610007,
+      "sha256": "6d1b61a47754ba0ed412525baa25bc2c8e29a93cf978fb70a276ef022c8c237b",
+      "bytes": 16808099,
+      "asset": "G4_vbench_07_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9350261107381247
+        },
+        "patch_fgresq": {
+          "score": 0.48117736194814953
+        },
+        "video_reward": {
+          "VQ": 1.6041777896422853,
+          "MQ": 1.4873289406994423,
+          "TA": 0.5481469686716292,
+          "Overall": 3.6396536990133566
+        }
+      }
+    },
+    {
+      "method": "G4",
+      "sample_id": "vbench_09",
+      "prompt": "couple dancing with body paint",
+      "seed": 610009,
+      "sha256": "fb626933d40edf5afa736f30a7f0cb7c03bfdbf3435830a513db54498a5cb7e7",
+      "bytes": 30531667,
+      "asset": "G4_vbench_09_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8502506685170332
+        },
+        "patch_fgresq": {
+          "score": 0.4545389795941966
+        },
+        "video_reward": {
+          "VQ": 0.13733537996084716,
+          "MQ": -0.24928499022518288,
+          "TA": -0.6460730066478245,
+          "Overall": -0.7580226169121602
+        }
+      }
+    },
+    {
+      "method": "G5",
+      "sample_id": "vbench_01",
+      "prompt": "a person playing golf",
+      "seed": 610001,
+      "sha256": "5f4f2474afdcbfb54ca6a390f334a9a90180be34da0fefb4c894ee9396a8a70e",
+      "bytes": 43411299,
+      "asset": "G5_vbench_01_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8620431918340862
+        },
+        "patch_fgresq": {
+          "score": 0.47496621018009527
+        },
+        "video_reward": {
+          "VQ": 0.8533769353977577,
+          "MQ": 0.5313427702555933,
+          "TA": 0.5854663429003621,
+          "Overall": 1.970186048553713
+        }
+      }
+    },
+    {
+      "method": "G5",
+      "sample_id": "vbench_03",
+      "prompt": "person doing a leg exercise",
+      "seed": 610003,
+      "sha256": "cb935596ecc5b8f3bc54aaf417079a877c579caa902667c251de0eeb52bffe0b",
+      "bytes": 31947337,
+      "asset": "G5_vbench_03_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9070032508926054
+        },
+        "patch_fgresq": {
+          "score": 0.4795118604387556
+        },
+        "video_reward": {
+          "VQ": 0.5474951058907279,
+          "MQ": -0.19271776120483677,
+          "TA": 0.37398988893754215,
+          "Overall": 0.7287672336234333
+        }
+      }
+    },
+    {
+      "method": "G5",
+      "sample_id": "vbench_05",
+      "prompt": "a young athlete training in swimming",
+      "seed": 610005,
+      "sha256": "730b8b9d75024c92df57f35ff213ed7d87431786a4d93697efbb05fa7955a462",
+      "bytes": 38751053,
+      "asset": "G5_vbench_05_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.904721737131052
+        },
+        "patch_fgresq": {
+          "score": 0.4582619734108448
+        },
+        "video_reward": {
+          "VQ": 0.5335913863676811,
+          "MQ": 0.4068948664108319,
+          "TA": 0.6352255085386727,
+          "Overall": 1.5757117613171856
+        }
+      }
+    },
+    {
+      "method": "G5",
+      "sample_id": "vbench_07",
+      "prompt": "people carving a pumpkin",
+      "seed": 610007,
+      "sha256": "5e4f35372a08607fa8d562ae8905c73393f26579d78201eb32c5ea304c66e963",
+      "bytes": 20602886,
+      "asset": "G5_vbench_07_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9001375004251505
+        },
+        "patch_fgresq": {
+          "score": 0.46572792939841745
+        },
+        "video_reward": {
+          "VQ": 1.7432149848727534,
+          "MQ": 1.0913583375570197,
+          "TA": 0.2931312447752875,
+          "Overall": 3.1277045672050607
+        }
+      }
+    },
+    {
+      "method": "G5",
+      "sample_id": "vbench_09",
+      "prompt": "couple dancing with body paint",
+      "seed": 610009,
+      "sha256": "eb41842d08651b870553164a2383288eab9b3975d44b053c3acf2b93ff04ed1b",
+      "bytes": 36776244,
+      "asset": "G5_vbench_09_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.821109369139336
+        },
+        "patch_fgresq": {
+          "score": 0.47108374514750073
+        },
+        "video_reward": {
+          "VQ": -0.09902785193094855,
+          "MQ": -0.537777858228948,
+          "TA": -0.09872218462640826,
+          "Overall": -0.7355278947863048
+        }
+      }
+    },
+    {
+      "method": "G6",
+      "sample_id": "vbench_01",
+      "prompt": "a person playing golf",
+      "seed": 610001,
+      "sha256": "afff9430f99e5e674723090995b26584415e57efe5ec84014cc3e3b7d50dcd88",
+      "bytes": 42881939,
+      "asset": "G6_vbench_01_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8873463767949246
+        },
+        "patch_fgresq": {
+          "score": 0.4161927721862282
+        },
+        "video_reward": {
+          "VQ": 1.3817182772735364,
+          "MQ": 1.2384331330099196,
+          "TA": 0.2682516619561322,
+          "Overall": 2.8884030722395884
+        }
+      }
+    },
+    {
+      "method": "G6",
+      "sample_id": "vbench_03",
+      "prompt": "person doing a leg exercise",
+      "seed": 610003,
+      "sha256": "adcfbfe74a4cae1300d69b39f7f285f323b8bcffb8877ccddd779ec0feb3981f",
+      "bytes": 19335759,
+      "asset": "G6_vbench_03_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9196080005810295
+        },
+        "patch_fgresq": {
+          "score": 0.45277393119675774
+        },
+        "video_reward": {
+          "VQ": 1.0897401672895535,
+          "MQ": 0.7519549634349431,
+          "TA": 0.7596234226344492,
+          "Overall": 2.601318553358946
+        }
+      }
+    },
+    {
+      "method": "G6",
+      "sample_id": "vbench_05",
+      "prompt": "a young athlete training in swimming",
+      "seed": 610005,
+      "sha256": "f71ee8722ba3e0c6934b1b7d5e33289754c4d6a9a7bdc2a1868b0a12c74ffef6",
+      "bytes": 39610576,
+      "asset": "G6_vbench_05_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8991562594093708
+        },
+        "patch_fgresq": {
+          "score": 0.45384857095777986
+        },
+        "video_reward": {
+          "VQ": 1.0063178501512726,
+          "MQ": 1.2158062414017812,
+          "TA": 0.3615500975279645,
+          "Overall": 2.5836741890810186
+        }
+      }
+    },
+    {
+      "method": "G6",
+      "sample_id": "vbench_07",
+      "prompt": "people carving a pumpkin",
+      "seed": 610007,
+      "sha256": "9ace2ee5ddf7af82d635f293044fe1093f7131a5604fc2852fd414d974a0828c",
+      "bytes": 17238107,
+      "asset": "G6_vbench_07_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.939234177262042
+        },
+        "patch_fgresq": {
+          "score": 0.45459103706691945
+        },
+        "video_reward": {
+          "VQ": 1.5207554725040044,
+          "MQ": 1.2271196872058503,
+          "TA": 0.8715815453206479,
+          "Overall": 3.619456705030503
+        }
+      }
+    },
+    {
+      "method": "G6",
+      "sample_id": "vbench_09",
+      "prompt": "couple dancing with body paint",
+      "seed": 610009,
+      "sha256": "61913a972aaf126169b4450996823381a280e55ce9fb9e202d8b24d0d2d9e342",
+      "bytes": 23933601,
+      "asset": "G6_vbench_09_1664x960_20s.mp4",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8741504919483052
+        },
+        "patch_fgresq": {
+          "score": 0.4214790541678667
+        },
+        "video_reward": {
+          "VQ": 0.255516995906745,
+          "MQ": -0.2153446528129752,
+          "TA": -0.4252667091278214,
+          "Overall": -0.3850943660340516
+        }
+      }
+    }
+  ],
+  "scope": "5 paired prompts × 7 methods; exploratory regression, not a full benchmark or original-paper certification."
+}

@@ -1,0 +1,7 @@
+*.mp4
+*.tar
+*.tar.gz
+.DS_Store
+node_modules/
+.env*
+logs/
