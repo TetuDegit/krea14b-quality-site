@@ -18,8 +18,8 @@
 - https://github.com/chaofengc/IQA-PyTorch
 - https://github.com/KlingAIResearch/VideoAlign
 
-当前状态：35 段视频已完整保存到本机并核对 SHA-256；Pages 已上线，可查看评分和海报。视频附件仍在上传到草稿 Release，完整媒体尚未公开，暂不开放网页播放。
+当前状态：35 段视频已完整保存到本机，并公开发布为同版本 Release 附件；全部附件的名称、字节数、uploaded 状态及 GitHub SHA-256 均与原件一致。Pages 提供视频对比、原始提示词、种子、逐视频分数及结果下载。
 
 网页：https://tetudegit.github.io/krea14b-quality-site/
 
-媒体版本目标（完整核验后发布）：https://github.com/TetuDegit/krea14b-quality-site/releases/tag/results-20261024
+已发布媒体版本：https://github.com/TetuDegit/krea14b-quality-site/releases/tag/results-20261024
