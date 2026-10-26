@@ -1,1 +1,7 @@
-{"repository":"TetuDegit/krea14b-quality-site","release_tag":"results-20261024","published":true}
+{
+  "repository": "TetuDegit/krea14b-quality-site",
+  "release_tag": "results-20261024",
+  "published": true,
+  "default_batch": "long",
+  "batch_catalog": "batches.json"
+}

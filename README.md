@@ -1,6 +1,6 @@
 # Krea 14B · G0–G6 视频质量观察站
 
-独立静态展示源码。35 段配对视频、7 种方法、每组 5 个案例；1664×960、20 秒、16 fps。三指标真实评分已完成，公开数据位于 `results.json`、`summary.csv`、`per_video.csv`，原始视频哈希见 `media_checksums.tsv`。
+独立静态展示源码。长短提示词两批共70段视频，每批7种方法、每种5个案例；1664×960、20 秒、16 fps。三指标真实评分已完成，短批数据位于 `results.json`、`summary.csv`、`per_video.csv`；长批位于 `results-long.json`、`long_summary.csv`、`long_per_video.csv`，全部70条逐视频评分见 `all_batches_per_video.csv`，原始视频哈希见 `media_checksums.tsv`。
 
 - FAST-VQA：作者 FAST-VQA-B 单视频接口与 sigmoid 标定。
 - Patch-FGResQ：本项目定义的 FGResQ_v2 原分辨率分块/时间聚合，不冒称官方独立视频指标。
@@ -8,7 +8,7 @@
 
 不同指标量纲不可相加。5 个案例为探索性回归，不代表完整基准或统计显著性结论。G1–G3 是 Krea 适配方法，不等同于原论文系统复现。G6 使用独立 MemRoPE 历史机制。
 
-站点纯 HTML/CSS/JavaScript，无构建依赖。Pages 发布源为 main 分支根目录。视频作为同仓库、同版本 GitHub Release 附件，禁止将 MP4 加入 Git 历史。config.json 控制仓库与版本；published 字段仅在媒体发布核验后设为 true。
+站点纯 HTML/CSS/JavaScript，无构建依赖。Pages 发布源为 main 分支根目录。两批视频作为同仓库的两个独立 GitHub Release 附件，禁止将 MP4 加入 Git 历史。config.json 指定展示仓库；batches.json 为每批分别指定数据、媒体版本、下载文件及发布状态。默认展示长提示词，页面支持切换批次和两批评分总览。两批文本条件不同，均值与标准差分别按n=5计算，不能混成n=10。
 
 网页包含原始提示词、生成种子、指标分数与视频，公开发布后均可被任何人访问。此目录不包含研究源码、集群路径、凭据、权重或运行环境。
 
@@ -18,8 +18,12 @@
 - https://github.com/chaofengc/IQA-PyTorch
 - https://github.com/KlingAIResearch/VideoAlign
 
-当前状态：35 段视频已完整保存到本机，并公开发布为同版本 Release 附件；全部附件的名称、字节数、uploaded 状态及 GitHub SHA-256 均与原件一致。Pages 提供视频对比、原始提示词、种子、逐视频分数及结果下载。
+当前状态：两批视频完整保存到本机，各自媒体哈希和逐视频评分均已核验；公开发布状态以对应Release实际附件为准；全部附件的名称、字节数、uploaded 状态及 GitHub SHA-256 均与原件一致。Pages 提供视频对比、原始提示词、种子、逐视频分数及结果下载。
 
 网页：https://tetudegit.github.io/krea14b-quality-site/
 
 已发布媒体版本：https://github.com/TetuDegit/krea14b-quality-site/releases/tag/results-20261024
+
+长提示词媒体版本：https://github.com/TetuDegit/krea14b-quality-site/releases/tag/results-long-20261026
+
+G7/C和G8/D长提示词追加实验仍在独立运行流程中，本次70条已完成展示只包含G0～G6，不预填其结果。

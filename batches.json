@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "default_batch": "long",
+  "batches": [
+    {
+      "id": "short",
+      "label": "短提示词 · 原始动作",
+      "release_tag": "results-20261024",
+      "published": true,
+      "data": "results.json",
+      "summary_csv": "summary.csv",
+      "per_video_csv": "per_video.csv",
+      "checksums": "media_checksums.tsv",
+      "video_count": 35
+    },
+    {
+      "id": "long",
+      "label": "长提示词 · 完整动作",
+      "release_tag": "results-long-20261026",
+      "published": true,
+      "data": "results-long.json",
+      "summary_csv": "long_summary.csv",
+      "per_video_csv": "long_per_video.csv",
+      "checksums": "long_media_checksums.tsv",
+      "video_count": 35
+    }
+  ]
+}

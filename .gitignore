@@ -5,3 +5,4 @@
 node_modules/
 .env*
 logs/
+local_experiments.json
