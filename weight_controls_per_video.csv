@@ -1,0 +1,21 @@
+combination,configuration,weights,sample_id,seed,score_state,video_sha256,release_asset
+G7_linear_end0,linear_end0,"[0.8, 0.6, 0.4, 0.2, 0.0]",vbench_01,610001,pending,e5dfa66a5adfdb67df075921bf6d68c0a26f16c359ba42b5e1edce85da11fcad,long_G7_linear_end0_vbench_01_1664x960_20s.mp4
+G7_linear_end0,linear_end0,"[0.8, 0.6, 0.4, 0.2, 0.0]",vbench_03,610003,pending,3f57499ca00549d89d216563e41ff2403e1ebdac9d1ebf214edd2bf86799cca5,long_G7_linear_end0_vbench_03_1664x960_20s.mp4
+G7_linear_end0,linear_end0,"[0.8, 0.6, 0.4, 0.2, 0.0]",vbench_05,610005,pending,aae7b3a6c75a62ad1c4dc363618a8e7285a333d6e31f3833cfedf48a22af61bf,long_G7_linear_end0_vbench_05_1664x960_20s.mp4
+G7_linear_end0,linear_end0,"[0.8, 0.6, 0.4, 0.2, 0.0]",vbench_07,610007,pending,8546c8243b4a37d0f148b282f4f03ce729019f96df868633f9b8231daeeb2a84,long_G7_linear_end0_vbench_07_1664x960_20s.mp4
+G7_linear_end0,linear_end0,"[0.8, 0.6, 0.4, 0.2, 0.0]",vbench_09,610009,pending,7d3ab8ec04d4baf681c69dffcda4c15ead0443b742780165d3524bd9a4308fec,long_G7_linear_end0_vbench_09_1664x960_20s.mp4
+G8_linear_end0,linear_end0,"[0.8, 0.6, 0.4, 0.2, 0.0]",vbench_01,610001,pending,3815011aff7eddef3dee8fd7a6e7f0e0a86af959e771832d8beb0d3b0958b427,long_G8_linear_end0_vbench_01_1664x960_20s.mp4
+G8_linear_end0,linear_end0,"[0.8, 0.6, 0.4, 0.2, 0.0]",vbench_03,610003,pending,e1008a28924d2b961d49cc2e7b3fcded2779710efbeb502c3e1b01202240bd41,long_G8_linear_end0_vbench_03_1664x960_20s.mp4
+G8_linear_end0,linear_end0,"[0.8, 0.6, 0.4, 0.2, 0.0]",vbench_05,610005,pending,3cfbfd73f4a2f9e08856c4a75c6beeca175e68d55b92a6bc436c72d14a51c9ff,long_G8_linear_end0_vbench_05_1664x960_20s.mp4
+G8_linear_end0,linear_end0,"[0.8, 0.6, 0.4, 0.2, 0.0]",vbench_07,610007,pending,27d0f44f49645daad619db656b991c43781ae112cccd74810eb381718b483831,long_G8_linear_end0_vbench_07_1664x960_20s.mp4
+G8_linear_end0,linear_end0,"[0.8, 0.6, 0.4, 0.2, 0.0]",vbench_09,610009,pending,18eaf89358541d2ea8f607108df3dadcc4506153998d149645c3315566a9a8f6,long_G8_linear_end0_vbench_09_1664x960_20s.mp4
+G7_fast_decay_end0,fast_decay_end0,"[0.8, 0.6, 0.2, 0.1, 0.0]",vbench_01,610001,pending,e02d6bea47389971eb727ba7c8fa6cedb7a81bc778084d1e022124d644ee61fb,long_G7_fast_decay_end0_vbench_01_1664x960_20s.mp4
+G7_fast_decay_end0,fast_decay_end0,"[0.8, 0.6, 0.2, 0.1, 0.0]",vbench_03,610003,pending,770f20f9ee69d1f242a46b26614965a29c8be7b99eff767fed64592cfc8daaf4,long_G7_fast_decay_end0_vbench_03_1664x960_20s.mp4
+G7_fast_decay_end0,fast_decay_end0,"[0.8, 0.6, 0.2, 0.1, 0.0]",vbench_05,610005,pending,87eacfe947744bfc02bce3254174e730326354b6b1c278c74ec63cb16cb51ac3,long_G7_fast_decay_end0_vbench_05_1664x960_20s.mp4
+G7_fast_decay_end0,fast_decay_end0,"[0.8, 0.6, 0.2, 0.1, 0.0]",vbench_07,610007,pending,74351815f73170cc253b29b9bee0bc950a352ed42847934e22be7ad181b535dc,long_G7_fast_decay_end0_vbench_07_1664x960_20s.mp4
+G7_fast_decay_end0,fast_decay_end0,"[0.8, 0.6, 0.2, 0.1, 0.0]",vbench_09,610009,pending,bb2042b745708311a51048bb27b5949c7055ac2bdfdf29e5642965d8fea4110c,long_G7_fast_decay_end0_vbench_09_1664x960_20s.mp4
+G8_fast_decay_end0,fast_decay_end0,"[0.8, 0.6, 0.2, 0.1, 0.0]",vbench_01,610001,pending,6cce38b1547003c6a2ebb72eca6d64f56f237280cafee0138b3692d056ae7d1c,long_G8_fast_decay_end0_vbench_01_1664x960_20s.mp4
+G8_fast_decay_end0,fast_decay_end0,"[0.8, 0.6, 0.2, 0.1, 0.0]",vbench_03,610003,pending,bcb6d3645795a8ee81a6514e243c72ac76872eb85ca30af5a9e128b5416eee8f,long_G8_fast_decay_end0_vbench_03_1664x960_20s.mp4
+G8_fast_decay_end0,fast_decay_end0,"[0.8, 0.6, 0.2, 0.1, 0.0]",vbench_05,610005,pending,2627260ddd5417964cef94d40cff73e2824b8cbe8b45607dd2850aa10270b1ef,long_G8_fast_decay_end0_vbench_05_1664x960_20s.mp4
+G8_fast_decay_end0,fast_decay_end0,"[0.8, 0.6, 0.2, 0.1, 0.0]",vbench_07,610007,pending,ae2bb47c7cc3e54ae69a4a4593ada677d6d1878e15537386460208924f2f81a8,long_G8_fast_decay_end0_vbench_07_1664x960_20s.mp4
+G8_fast_decay_end0,fast_decay_end0,"[0.8, 0.6, 0.2, 0.1, 0.0]",vbench_09,610009,pending,ceb0811466c4e5eb820f8328e1e9cebdcdd8f54cc9d9bddaf1df9f54467e2e5c,long_G8_fast_decay_end0_vbench_09_1664x960_20s.mp4

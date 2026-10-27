@@ -22,7 +22,9 @@
       "summary_csv": "long_summary.csv",
       "per_video_csv": "long_per_video.csv",
       "checksums": "long_media_checksums.tsv",
-      "video_count": 45
+      "video_count": 65,
+      "scored_video_count": 45,
+      "pending_video_count": 20
     }
   ]
 }
