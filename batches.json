@@ -22,7 +22,7 @@
       "summary_csv": "long_summary.csv",
       "per_video_csv": "long_per_video.csv",
       "checksums": "long_media_checksums.tsv",
-      "video_count": 35
+      "video_count": 45
     }
   ]
 }

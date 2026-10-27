@@ -1,5 +1,5 @@
 {
-  "title": "Krea 14B · 长提示词 G0–G6 质量评测",
+  "title": "Krea 14B · 长提示词 G0–G8 质量评测",
   "completed_date": "2026-10-26",
   "batch_id": "long",
   "batch_label": "长提示词 · 完整动作",
@@ -11,7 +11,9 @@
     "G3",
     "G4",
     "G5",
-    "G6"
+    "G6",
+    "G7",
+    "G8"
   ],
   "sample_ids": [
     "vbench_01",
@@ -115,6 +117,20 @@
           "sample_std": 0.07701727236708347,
           "n": 5
         }
+      },
+      "G7": {
+        "score": {
+          "mean": 0.855986543630734,
+          "sample_std": 0.0615362906235086,
+          "n": 5
+        }
+      },
+      "G8": {
+        "score": {
+          "mean": 0.8792002465390313,
+          "sample_std": 0.032593594496389766,
+          "n": 5
+        }
       }
     },
     "patch_fgresq": {
@@ -164,6 +180,20 @@
         "score": {
           "mean": 0.44158695743552273,
           "sample_std": 0.030136167015765363,
+          "n": 5
+        }
+      },
+      "G7": {
+        "score": {
+          "mean": 0.4515153905004263,
+          "sample_std": 0.03333533591487249,
+          "n": 5
+        }
+      },
+      "G8": {
+        "score": {
+          "mean": 0.46046298408082553,
+          "sample_std": 0.01938506881495428,
           "n": 5
         }
       }
@@ -320,6 +350,50 @@
         "Overall": {
           "mean": 1.912947864079277,
           "sample_std": 1.3525881484139544,
+          "n": 5
+        }
+      },
+      "G7": {
+        "VQ": {
+          "mean": 0.7727353621640862,
+          "sample_std": 0.5015370551096993,
+          "n": 5
+        },
+        "MQ": {
+          "mean": 0.4142486061834769,
+          "sample_std": 0.5330452182325438,
+          "n": 5
+        },
+        "TA": {
+          "mean": 0.7098642569961385,
+          "sample_std": 0.8049900422918563,
+          "n": 5
+        },
+        "Overall": {
+          "mean": 1.8968482253437016,
+          "sample_std": 1.0700951058915449,
+          "n": 5
+        }
+      },
+      "G8": {
+        "VQ": {
+          "mean": 0.9785104111051789,
+          "sample_std": 0.5722525034274526,
+          "n": 5
+        },
+        "MQ": {
+          "mean": 0.6721951705162551,
+          "sample_std": 0.5979640414631625,
+          "n": 5
+        },
+        "TA": {
+          "mean": 0.6899605907408143,
+          "sample_std": 0.8575497226301171,
+          "n": 5
+        },
+        "Overall": {
+          "mean": 2.340666172362248,
+          "sample_std": 1.0142156660284032,
           "n": 5
         }
       }
@@ -1165,7 +1239,280 @@
         }
       },
       "poster": "poster_long_G6_vbench_09.jpg"
+    },
+    {
+      "method": "G7",
+      "sample_id": "vbench_01",
+      "prompt": "A person plays golf on a golf course in one continuous twenty-second shot. The golfer steps up to a ball on the grass, places both feet firmly, grips the club with both hands, and settles into the address position. The golfer draws the club back, rotates the shoulders and hips, then swings forward through the ball and completes a full follow-through, shifting weight onto the front foot. The golfer turns to follow the ball's flight, then naturally lowers the club to finish the shot. Show the full body, both hands, the club, and the ball at address. Use an uninterrupted medium-wide view with natural movement through the preparation, swing, follow-through, and recovery.",
+      "seed": 610001,
+      "sha256": "118fc71bcc17b096675e9d0e1b96be45d92b82a3d89aeb05d5e0b75d4565c531",
+      "bytes": 36495334,
+      "asset": "long_G7_vbench_01_1664x960_20s.mp4",
+      "poster": "poster_long_G7_vbench_01.jpg",
+      "release_tag": "results-long-g78-20261027",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8799375299144522
+        },
+        "patch_fgresq": {
+          "score": 0.4413949197956494
+        },
+        "video_reward": {
+          "VQ": 0.9228955330129918,
+          "MQ": 0.12405872130910138,
+          "TA": 0.2869113490704987,
+          "Overall": 1.3338656033925917
+        }
+      }
+    },
+    {
+      "method": "G7",
+      "sample_id": "vbench_03",
+      "prompt": "A person performs a controlled leg exercise in one continuous twenty-second shot, with the whole body visible. Starting upright with feet hip-width apart, the person shifts weight onto the left foot, lifts the right knee towards the waist, then lowers the right foot all the way back to the floor. The person transfers weight, raises the left knee, and lowers that foot fully to the floor. The person continues alternating complete knee raises at a steady natural rhythm through the shot, using small arm movements to balance. Each repetition includes a clear lift and return. At the end, the person finishes the last repetition and returns to a balanced upright stance with both feet on the floor. The camera keeps the hips, knees, and feet visible throughout.",
+      "seed": 610003,
+      "sha256": "f1bf4b2101008e28a922e4c45724fc08fcd35a167b50def945aaf3f070592877",
+      "bytes": 14369238,
+      "asset": "long_G7_vbench_03_1664x960_20s.mp4",
+      "poster": "poster_long_G7_vbench_03.jpg",
+      "release_tag": "results-long-g78-20261027",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9048734070402052
+        },
+        "patch_fgresq": {
+          "score": 0.4820812296654497
+        },
+        "video_reward": {
+          "VQ": 0.686532301121196,
+          "MQ": 0.333357468684382,
+          "TA": -0.38483738704669407,
+          "Overall": 0.6350523827588839
+        }
+      }
+    },
+    {
+      "method": "G7",
+      "sample_id": "vbench_05",
+      "prompt": "A young athlete trains in swimming during one continuous twenty-second shot in a short swimming-pool lane. Starting at the wall, the swimmer pushes off with the legs, extends the body into a glide, and begins swimming freestyle towards the opposite end. The arms alternate complete strokes: each hand enters the water ahead, pulls beneath the body, leaves the water, and recovers forwards. The legs kick continuously, the body rolls gently with the strokes, and the swimmer turns the head briefly to breathe before returning the face to the water. Ripples and splashes follow the advancing swimmer. Near the end, the swimmer reaches forwards, touches the opposite wall, and finishes the length. A continuous side view follows the swimmer and keeps the arm strokes and forward progress visible.",
+      "seed": 610005,
+      "sha256": "463c07cbf8d0608298d616e0fe325e67b6bc2478a1d3228b20d5f44c107dbd95",
+      "bytes": 34505896,
+      "asset": "long_G7_vbench_05_1664x960_20s.mp4",
+      "poster": "poster_long_G7_vbench_05.jpg",
+      "release_tag": "results-long-g78-20261027",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.7492998577532574
+        },
+        "patch_fgresq": {
+          "score": 0.4079591636679002
+        },
+        "video_reward": {
+          "VQ": 0.5753025449368215,
+          "MQ": 0.8764028672797045,
+          "TA": 1.0208590422355797,
+          "Overall": 2.4725644544521055
+        }
+      }
+    },
+    {
+      "method": "G7",
+      "sample_id": "vbench_07",
+      "prompt": "Two people carve a pumpkin together at a table in one continuous twenty-second shot. A partly carved pumpkin sits between them with one outlined eye opening still unfinished. One person steadies the pumpkin while the other carefully guides a small carving tool along the remaining outline, making successive visible cutting movements. They turn the pumpkin slightly to reach the final section. The person completes the cut and gently removes the loosened piece, leaving a clear opening. Together they clear the loose pumpkin fragments and rotate the pumpkin towards the camera to show the completed carving. Keep both people, their moving hands, the tool, and the changing pumpkin surface visible in a continuous medium view. The sequence progresses from active cutting to removing the piece and presenting the finished work.",
+      "seed": 610007,
+      "sha256": "fc7f93c136a4522ffdaad24d5d3e6386bebec9e1e0e13377e78dc23b895856bf",
+      "bytes": 20116625,
+      "asset": "long_G7_vbench_07_1664x960_20s.mp4",
+      "poster": "poster_long_G7_vbench_07.jpg",
+      "release_tag": "results-long-g78-20261027",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8835965664738912
+        },
+        "patch_fgresq": {
+          "score": 0.4381300573902471
+        },
+        "video_reward": {
+          "VQ": 1.5207554725040044,
+          "MQ": 1.0121642169285352,
+          "TA": 0.8715815453206479,
+          "Overall": 3.4045012347531873
+        }
+      }
+    },
+    {
+      "method": "G7",
+      "sample_id": "vbench_09",
+      "prompt": "A couple wearing colourful body paint dance together in one continuous twenty-second shot, with both dancers fully visible. They face each other, take hands, and begin a flowing partner-dance sequence. They step from side to side in rhythm, transfer their weight clearly between their feet, and move forwards and backwards together. One partner raises their joined hands while the other steps through a complete turn, then they reconnect face to face and continue the footwork. Their painted arms and torsos move naturally with the steps, and their positions change across the dance floor. Near the end they complete a final shared turn and settle together into a balanced finishing pose. Keep the movement continuous through the steps and turns, with a steady medium-wide camera view showing both dancers' hands and feet.",
+      "seed": 610009,
+      "sha256": "1641bdf8894c67f10184571dbfc1bab9a9b8abef99d928a25e1a7fb5999c09dc",
+      "bytes": 16310611,
+      "asset": "long_G7_vbench_09_1664x960_20s.mp4",
+      "poster": "poster_long_G7_vbench_09.jpg",
+      "release_tag": "results-long-g78-20261027",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8622253569718639
+        },
+        "patch_fgresq": {
+          "score": 0.4880115819828851
+        },
+        "video_reward": {
+          "VQ": 0.15819095924541737,
+          "MQ": -0.2747402432843386,
+          "TA": 1.7548067354006605,
+          "Overall": 1.6382574513617392
+        }
+      }
+    },
+    {
+      "method": "G8",
+      "sample_id": "vbench_01",
+      "prompt": "A person plays golf on a golf course in one continuous twenty-second shot. The golfer steps up to a ball on the grass, places both feet firmly, grips the club with both hands, and settles into the address position. The golfer draws the club back, rotates the shoulders and hips, then swings forward through the ball and completes a full follow-through, shifting weight onto the front foot. The golfer turns to follow the ball's flight, then naturally lowers the club to finish the shot. Show the full body, both hands, the club, and the ball at address. Use an uninterrupted medium-wide view with natural movement through the preparation, swing, follow-through, and recovery.",
+      "seed": 610001,
+      "sha256": "0a485bac767e57f51475a15edf1bd187f5df04ab8f0fcb51238905222e2ef794",
+      "bytes": 36250245,
+      "asset": "long_G8_vbench_01_1664x960_20s.mp4",
+      "poster": "poster_long_G8_vbench_01.jpg",
+      "release_tag": "results-long-g78-20261027",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.890139372865269
+        },
+        "patch_fgresq": {
+          "score": 0.4516426727707897
+        },
+        "video_reward": {
+          "VQ": 1.1592587649047874,
+          "MQ": 0.6161936137861125,
+          "TA": 0.4299689502806416,
+          "Overall": 2.2054213289715414
+        }
+      }
+    },
+    {
+      "method": "G8",
+      "sample_id": "vbench_03",
+      "prompt": "A person performs a controlled leg exercise in one continuous twenty-second shot, with the whole body visible. Starting upright with feet hip-width apart, the person shifts weight onto the left foot, lifts the right knee towards the waist, then lowers the right foot all the way back to the floor. The person transfers weight, raises the left knee, and lowers that foot fully to the floor. The person continues alternating complete knee raises at a steady natural rhythm through the shot, using small arm movements to balance. Each repetition includes a clear lift and return. At the end, the person finishes the last repetition and returns to a balanced upright stance with both feet on the floor. The camera keeps the hips, knees, and feet visible throughout.",
+      "seed": 610003,
+      "sha256": "ec942c29dd4b2ccde895bc411e3670cf8b4d7fc76c477cca39fac77162d23d7c",
+      "bytes": 14159928,
+      "asset": "long_G8_vbench_03_1664x960_20s.mp4",
+      "poster": "poster_long_G8_vbench_03.jpg",
+      "release_tag": "results-long-g78-20261027",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8986454333039446
+        },
+        "patch_fgresq": {
+          "score": 0.47848408786313873
+        },
+        "video_reward": {
+          "VQ": 1.1036438868126002,
+          "MQ": 0.899029758887843,
+          "TA": -0.490575614028104,
+          "Overall": 1.512098031672339
+        }
+      }
+    },
+    {
+      "method": "G8",
+      "sample_id": "vbench_05",
+      "prompt": "A young athlete trains in swimming during one continuous twenty-second shot in a short swimming-pool lane. Starting at the wall, the swimmer pushes off with the legs, extends the body into a glide, and begins swimming freestyle towards the opposite end. The arms alternate complete strokes: each hand enters the water ahead, pulls beneath the body, leaves the water, and recovers forwards. The legs kick continuously, the body rolls gently with the strokes, and the swimmer turns the head briefly to breathe before returning the face to the water. Ripples and splashes follow the advancing swimmer. Near the end, the swimmer reaches forwards, touches the opposite wall, and finishes the length. A continuous side view follows the swimmer and keeps the arm strokes and forward progress visible.",
+      "seed": 610005,
+      "sha256": "31893a86581253b78c78d1fd1df541d7bab8eae23e3d07b85442ad82d26fd78d",
+      "bytes": 31681156,
+      "asset": "long_G8_vbench_05_1664x960_20s.mp4",
+      "poster": "poster_long_G8_vbench_05.jpg",
+      "release_tag": "results-long-g78-20261027",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8235991207580373
+        },
+        "patch_fgresq": {
+          "score": 0.4348700473351138
+        },
+        "video_reward": {
+          "VQ": 0.7143397401672896,
+          "MQ": 0.4860889870393164,
+          "TA": 0.7471836312248714,
+          "Overall": 1.9476123584314775
+        }
+      }
+    },
+    {
+      "method": "G8",
+      "sample_id": "vbench_07",
+      "prompt": "Two people carve a pumpkin together at a table in one continuous twenty-second shot. A partly carved pumpkin sits between them with one outlined eye opening still unfinished. One person steadies the pumpkin while the other carefully guides a small carving tool along the remaining outline, making successive visible cutting movements. They turn the pumpkin slightly to reach the final section. The person completes the cut and gently removes the loosened piece, leaving a clear opening. Together they clear the loose pumpkin fragments and rotate the pumpkin towards the camera to show the completed carving. Keep both people, their moving hands, the tool, and the changing pumpkin surface visible in a continuous medium view. The sequence progresses from active cutting to removing the piece and presenting the finished work.",
+      "seed": 610007,
+      "sha256": "762f62dfa6edb4d07cac0a9e3122d2adbb2dafc19b040528e8726c666666942b",
+      "bytes": 19456275,
+      "asset": "long_G8_vbench_07_1664x960_20s.mp4",
+      "poster": "poster_long_G8_vbench_07.jpg",
+      "release_tag": "results-long-g78-20261027",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.9048884240296071
+        },
+        "patch_fgresq": {
+          "score": 0.4561847648450307
+        },
+        "video_reward": {
+          "VQ": 1.7293112653497065,
+          "MQ": 1.4986423865035117,
+          "TA": 0.8715815453206479,
+          "Overall": 4.099535197173866
+        }
+      }
+    },
+    {
+      "method": "G8",
+      "sample_id": "vbench_09",
+      "prompt": "A couple wearing colourful body paint dance together in one continuous twenty-second shot, with both dancers fully visible. They face each other, take hands, and begin a flowing partner-dance sequence. They step from side to side in rhythm, transfer their weight clearly between their feet, and move forwards and backwards together. One partner raises their joined hands while the other steps through a complete turn, then they reconnect face to face and continue the footwork. Their painted arms and torsos move naturally with the steps, and their positions change across the dance floor. Near the end they complete a final shared turn and settle together into a balanced finishing pose. Keep the movement continuous through the steps and turns, with a steady medium-wide camera view showing both dancers' hands and feet.",
+      "seed": 610009,
+      "sha256": "37e1ab5c3060c41d40735caeb204448fa1a594fa65444959dd1a65df4355ae81",
+      "bytes": 13702944,
+      "asset": "long_G8_vbench_09_1664x960_20s.mp4",
+      "poster": "poster_long_G8_vbench_09.jpg",
+      "release_tag": "results-long-g78-20261027",
+      "scores": {
+        "fast_vqa": {
+          "score": 0.8787288817382984
+        },
+        "patch_fgresq": {
+          "score": 0.48113334759005477
+        },
+        "video_reward": {
+          "VQ": 0.18599839829151096,
+          "MQ": -0.138978893635508,
+          "TA": 1.8916444409060147,
+          "Overall": 1.9386639455620176
+        }
+      }
     }
   ],
-  "scope": "5 paired prompts × 7 methods; exploratory regression, not a full benchmark or original-paper certification."
+  "scope": "5 paired long prompts × 9 methods; G7/C and G8/D are train-free exploratory additions. G0–G6 scores and videos are reused unchanged.",
+  "guidance_experiment": {
+    "methods": [
+      "G7",
+      "G8"
+    ],
+    "lambda": [
+      0.8,
+      0.6,
+      0.4,
+      0.2,
+      0.1
+    ],
+    "lowpass": {
+      "applies_to": "G7 only, clean-prediction residual",
+      "sigma": 2,
+      "kernel_size": 13,
+      "padding": "reflect",
+      "axes": "spatial only"
+    },
+    "reference": "Original matching 1× RGB video, bicubic upsampled to target size, deterministically encoded with the same VAE.",
+    "comparability": "Same long prompts, seeds, model and five-step sampler/history protocol as G4; G4 used four GPUs and additions two GPUs, so cross-layout bitwise identity is not claimed.",
+    "status": "generation, technical checks and all three metrics complete; visual quality conclusions require viewing."
+  }
 }
