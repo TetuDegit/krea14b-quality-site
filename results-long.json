@@ -1681,7 +1681,7 @@
       "asset": "long_G7_linear_end0_vbench_01_1664x960_20s.mp4",
       "poster": "poster_long_G7_linear_end0_vbench_01.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -1717,7 +1717,7 @@
       "asset": "long_G7_linear_end0_vbench_03_1664x960_20s.mp4",
       "poster": "poster_long_G7_linear_end0_vbench_03.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -1753,7 +1753,7 @@
       "asset": "long_G7_linear_end0_vbench_05_1664x960_20s.mp4",
       "poster": "poster_long_G7_linear_end0_vbench_05.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -1789,7 +1789,7 @@
       "asset": "long_G7_linear_end0_vbench_07_1664x960_20s.mp4",
       "poster": "poster_long_G7_linear_end0_vbench_07.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -1825,7 +1825,7 @@
       "asset": "long_G7_linear_end0_vbench_09_1664x960_20s.mp4",
       "poster": "poster_long_G7_linear_end0_vbench_09.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -1861,7 +1861,7 @@
       "asset": "long_G8_linear_end0_vbench_01_1664x960_20s.mp4",
       "poster": "poster_long_G8_linear_end0_vbench_01.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -1897,7 +1897,7 @@
       "asset": "long_G8_linear_end0_vbench_03_1664x960_20s.mp4",
       "poster": "poster_long_G8_linear_end0_vbench_03.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -1933,7 +1933,7 @@
       "asset": "long_G8_linear_end0_vbench_05_1664x960_20s.mp4",
       "poster": "poster_long_G8_linear_end0_vbench_05.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -1969,7 +1969,7 @@
       "asset": "long_G8_linear_end0_vbench_07_1664x960_20s.mp4",
       "poster": "poster_long_G8_linear_end0_vbench_07.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2005,7 +2005,7 @@
       "asset": "long_G8_linear_end0_vbench_09_1664x960_20s.mp4",
       "poster": "poster_long_G8_linear_end0_vbench_09.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2041,7 +2041,7 @@
       "asset": "long_G7_fast_decay_end0_vbench_01_1664x960_20s.mp4",
       "poster": "poster_long_G7_fast_decay_end0_vbench_01.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2077,7 +2077,7 @@
       "asset": "long_G7_fast_decay_end0_vbench_03_1664x960_20s.mp4",
       "poster": "poster_long_G7_fast_decay_end0_vbench_03.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2113,7 +2113,7 @@
       "asset": "long_G7_fast_decay_end0_vbench_05_1664x960_20s.mp4",
       "poster": "poster_long_G7_fast_decay_end0_vbench_05.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2149,7 +2149,7 @@
       "asset": "long_G7_fast_decay_end0_vbench_07_1664x960_20s.mp4",
       "poster": "poster_long_G7_fast_decay_end0_vbench_07.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2185,7 +2185,7 @@
       "asset": "long_G7_fast_decay_end0_vbench_09_1664x960_20s.mp4",
       "poster": "poster_long_G7_fast_decay_end0_vbench_09.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2221,7 +2221,7 @@
       "asset": "long_G8_fast_decay_end0_vbench_01_1664x960_20s.mp4",
       "poster": "poster_long_G8_fast_decay_end0_vbench_01.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2257,7 +2257,7 @@
       "asset": "long_G8_fast_decay_end0_vbench_03_1664x960_20s.mp4",
       "poster": "poster_long_G8_fast_decay_end0_vbench_03.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2293,7 +2293,7 @@
       "asset": "long_G8_fast_decay_end0_vbench_05_1664x960_20s.mp4",
       "poster": "poster_long_G8_fast_decay_end0_vbench_05.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2329,7 +2329,7 @@
       "asset": "long_G8_fast_decay_end0_vbench_07_1664x960_20s.mp4",
       "poster": "poster_long_G8_fast_decay_end0_vbench_07.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2365,7 +2365,7 @@
       "asset": "long_G8_fast_decay_end0_vbench_09_1664x960_20s.mp4",
       "poster": "poster_long_G8_fast_decay_end0_vbench_09.jpg",
       "release_tag": "results-long-weights-20261027",
-      "media_published": false,
+      "media_published": true,
       "score_state": "pending",
       "scores": {
         "fast_vqa": {
@@ -2423,6 +2423,6 @@
       0
     ],
     "scores_state": "pending",
-    "media_state": "uploading"
+    "media_state": "published"
   }
 }
